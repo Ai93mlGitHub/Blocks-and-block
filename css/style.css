@@ -1,0 +1,13 @@
+.b-block_style-base{
+	margin:5px;
+}
+.b-block_size-square{
+	height:100px;
+	width: 100px;
+}
+.b-block_style-normal{
+	background-color: blue;
+}
+.b-block_style-alert{
+	background-color: red;
+}
