@@ -1,85 +1,55 @@
-.b-header{
-display:block;
-
-position:fixed;
-top: 0;
-
-width: 100%;
-padding: 20px;
-background: black;
+body{
+	cursor:default;
 }
-.b-header__page-title{
+.headlines{
+	margin:0 auto;
+	padding: 40px 0;
+	width: 960px;
 	
-	
-	float: left;
-	
-	font-size: 34px;
-	color: #fff;
+	background: #ccc;
 }
-.b-header__page-list{
-	float: left;
+.a4-block{
+	margin:25px auto;
+	padding: 50px 50px 100px 75px;
+	width:805px;
+	height:1165px; 
+	
+	background: #dfdfdf;
+}
+.horizontal-row{
+	float:left;
+}
 
-	color: #fff;
-}
-ul {
-	display: block;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-ul:after {
-	display: block;
-	content: ' ';
-	clear: both;
-	float: none;
-}
-ul.menu > li {
-	float: left;
-	position: relative;
-}
-ul.menu > li > a {
-	display: block;
-	padding: 10px;
-	color: white;
-	background-color: red;
-	text-decoration: none;
-}
-ul.menu > li > a:hover {
-	background-color: black;
-}
-ul.submenu {
-	display: none;
-	position: absolute;
-	width: 120px;
-	top: 37px;
-	left: 0;
-	background-color: red;
-	border: 1px solid red;
-}
-ul.submenu > li {
-	display: block;
-}
-ul.submenu > li > a {
-	display: block;
-	padding: 10px;
-	color: white;
-	background-color: red;
-	text-decoration: none;
-}
-ul.submenu > li > a:hover {
-	text-decoration: underline;
-}
-ul.menu > li:hover > ul.submenu {
-	display: block;
-}
-.b-body-wrapper{
-
-	height:300px;
-	width:960px;
-	margin: 0 auto;
+.setka-little-block{	
+	margin:5px 5px 10px 5px;
+	padding:5px;
+	width:180px;
+	height:120px;
 	
-	box-shadow:
+	background:#fff;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
 }
-.b-body-wrapper__content-section img{
-	width:50%;
+
+.setca__big-block{	
+	margin:5px 5px 10px 5px;
+	padding:5px;
+	width: 580px;
+	height:970px;
+		
+	background:#fff;
+}
+
+.setca__big-block:hover{
+	background: #ffa500;
+}
+
+.size__height-2{
+	height: 265px;
+}
+
+.setka-little-block:hover{
+	background: #ffa500;
 }
