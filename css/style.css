@@ -16,11 +16,17 @@ body{
 	
 	background: #dfdfdf;
 }
-.horizontal-row{
+
+.grid-row{
+	clear:both;
+}
+.grid-row>*{
 	float:left;
 }
 
-.setka-little-block{	
+.grid-column{}
+
+.block{	
 	margin:5px 5px 10px 5px;
 	padding:5px;
 	width:180px;
@@ -32,24 +38,25 @@ body{
 	text-overflow: ellipsis;
 	-o-text-overflow: ellipsis;
 }
-
-.setca__big-block{	
-	margin:5px 5px 10px 5px;
-	padding:5px;
-	width: 580px;
-	height:970px;
-		
-	background:#fff;
-}
-
-.setca__big-block:hover{
+.block:hover{
 	background: #ffa500;
 }
 
-.size__height-2{
+.size-height-2{
 	height: 265px;
 }
+.size-height-7{
+	height:970px;
+}
 
-.setka-little-block:hover{
-	background: #ffa500;
+.size__width-3{
+	width: 580px;
+}
+
+.offset-left-1{
+	margin-left:205px;
+}
+
+.offset-top-1{
+	margin-top:150px;
 }
