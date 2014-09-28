@@ -45,18 +45,38 @@ body{
 .size-height-2{
 	height: 265px;
 }
+.size-height-3{
+	height: 410px;
+}
 .size-height-7{
 	height:970px;
 }
 
+.size-width-2{
+	width:380px;
+}
 .size__width-3{
 	width: 580px;
+}
+
+.offset-top-1{
+	margin-top:150px;
+}
+.offset-top-2{
+	margin-top: 295px;
+}
+.offset-top-3{
+	margin-top: 440px;
+}
+
+.offset-right-1{
+	margin-right:205px;
 }
 
 .offset-left-1{
 	margin-left:205px;
 }
 
-.offset-top-1{
-	margin-top:150px;
-}
+/* TODO: Разобраться с высотами*/
+
+
